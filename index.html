@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Trabajo Social - U. de Chile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Malla Trabajo Social - Universidad de Chile</h1>
+  <section class="malla">
+    <div class="semestre">
+      <h2>Semestre I</h2>
+      <div class="ramos">
+        <div class="ramo" onclick="mostrarInfo('fundamentos')">Fundamentos históricos y políticos del Trabajo Social</div>
+        <div class="ramo" onclick="mostrarInfo('filosofia')">Filosofía</div>
+        <div class="ramo" onclick="mostrarInfo('historiaContemp')">Historia social contemporánea</div>
+        <div class="ramo" onclick="mostrarInfo('teoriaSoc')">Teoría sociológica I</div>
+        <div class="ramo" onclick="mostrarInfo('metodologia1')">Metodología de la investigación social I</div>
+        <div class="ramo" onclick="mostrarInfo('ingles1')">Inglés I</div>
+      </div>
+    </div>
+  </section>
+  <div id="infoRamo" class="info-oculta"></div>
+  <script src="script.js"></script>
+</body>
+</html>
